@@ -1,13 +1,168 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>evilyator</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Java City</title>
+	<link href='https://fonts.googleapis.com/css?family=Lato|Source+Sans+Pro' rel='stylesheet' type='text/css'>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" defer></script>
+	<script type="text/javascript">window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
+	<script type="text/javascript" src="js/jquery.main.js" defer></script>
+	<link media="all" rel="stylesheet" href="css/main.css">
+	<link media="all" rel="stylesheet" href="css/fancybox.css">
 </head>
 <body>
-	<h1>Мои проекты:</h1>
-	<ul>
-		<li><a href="display/index.html">Display</a></li>
-		<li><a href="java-city/index.html">Java City</a></li>
-	</ul>
+	<div id="wrapper">
+		<div id="visual" style="background: #5a2a18 url('images/bg-visual.png')  0 0 / cover">
+			<div class="visual-top">
+				<a href="index.html">
+					<img src="images/logo.png" alt="java city">
+				</a>
+			</div>
+			<div class="visual-middle">
+				<img src="images/primary-text.png" alt="hand roasted smooth coffee since 1985">
+			</div>
+			<div class="visual-bottom">
+				<a href="#" class="main-button">find out more</a>
+				<a href="#header" class="drop-down"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+			</div>
+		</div>
+		<header id="header">
+			<div class="container">
+				<div class="logo-navigation">
+					<a href="index.html">
+						<img src="images/logo-nav.png" alt="java city">
+					</a>
+				</div>
+				<div class="logo-mobile">
+					<a href="index.html">
+						<img src="images/logo-mob.png" alt="java city">
+					</a>
+				</div>
+				<nav class="navigation">
+					<div class="mobile-navigation">
+						<a href="#" class="opener"><span></span></a>
+						<div class="drop">
+							<ul>
+								<li><a href="#popup1" class="lightbox">Login</a></li>
+								<li><a href="#">Wholesale</a></li>
+								<li><a href="#">process</a></li>
+								<li><a href="#">coffee</a></li>
+								<li><a href="#">tea</a></li>
+								<li><a href="#">goods</a></li>
+							</ul>
+						</div>
+					</div>
+					<ul class="main-navigation">
+						<li><a href="#">process</a></li>
+						<li><a href="#">coffee</a></li>
+						<li><a href="#">tea</a></li>
+						<li><a href="#">goods</a></li>
+					</ul>
+					<ul class="add-navigation">
+						<li><a href="#">Wholesale</a></li>
+						<li><a href="#popup1" class="lightbox">Login</a></li>
+						<li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Cart</span></a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main id="content">
+			<div class="container">
+				<p>Our story started in 1985 when we began hand roasting the world’s finest coffees in an old brick building in downtown Sacramento. If you’ve noticed our coffees are smoother tasting than most, it’s not by accident. Our beans are carefully roasted using authentic Italian bricklined roasters that provide radiant heat, allowing a slower, longer roast. We know our way takes more time, but we wouldn’t dare change a thing.</p>
+			</div>
+		</main>	
+		<div class="slideshow">
+			<div class="slideset">
+				<div class="slide">
+					<img src="images/img1.png" class="slide-image" alt="slide image">
+				</div>
+				<div class="slide">
+					<img src="images/img2.png" class="slide-image" alt="slide image">
+				</div>
+				<div class="slide">
+					<img src="images/img3.png" class="slide-image" alt="slide image">
+				</div>
+				<ul class="product-holder">
+					<li>
+						<a href="#">
+							<div class="product">
+								<img src="images/item1.png" alt="product image">
+								<span>coffee</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="product">
+								<img src="images/item2.png" alt="product image">
+								<span>tea</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="product">
+								<img src="images/item3.png" alt="product image">
+								<span>goods</span>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<footer id="footer">
+			<div class="container">
+				<div class="mobile-subscribe">
+					<a href="#">get email updates</a>
+				</div>
+				<div class="subscribe">
+					<form action="#">
+						<fieldset>
+							<label for="submit">Get Updates</label>
+							<input id="submit" type="email" placeholder="Your email">
+							<button type="submit">submit</button>
+						</fieldset>
+					</form>
+				</div>
+				<div class="footer-holder">
+					<div class="footer-navigation">
+						<ul class="social-buttons">
+							<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						</ul>
+						<ul class="footer-contacts">
+							<li><a href="#">Contact</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Nutrition Information</a></li>
+						</ul>
+					</div>
+					<ul class="copyright">
+						<li>Copyright 2016</li>
+						<li>All Rights Reserved</li>
+						<li>Site by<a href="#">Position Interactive</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div class="popup-holder">
+		<div id="popup1" class="lightbox">
+			<div>
+				<h2>Java City Account Login</h2>
+				<a href="#" class="close"><i class="fa fa-times" aria-hidden="true"></i></a>
+			</div>
+			<div>
+				<span>wholesale login</span>
+				<a href="#" class="login-button">login</a>
+			</div>
+			<div>
+				<span>manage my club</span>
+				<a href="#" class="login-button">login</a>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
